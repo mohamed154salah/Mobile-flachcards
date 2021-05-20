@@ -84,7 +84,7 @@ class DeskView extends Component {
             {questions.length} cards
           </Text>
           <Button
-            title="Add deck"
+            title="Add card"
             onPress={() => this.props.navigation.navigate("Addcard", title)}
           />
 
